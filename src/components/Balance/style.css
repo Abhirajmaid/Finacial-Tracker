@@ -1,0 +1,33 @@
+.incomeExpence {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.total-balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.total-balance > h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.total-balance > h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.box {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.box > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.box > div > h3 {
+  font-size: 18px;
+  font-weight: 400;
+}

@@ -1,0 +1,21 @@
+.balanceCard {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  background: rgb(255, 117, 82);
+  background: linear-gradient(
+    31deg,
+    rgba(250, 146, 121, 1) 0%,
+    rgba(225, 122, 193, 1) 22%,
+    rgba(201, 103, 254, 1) 50%,
+    rgba(146, 126, 245, 1) 78%,
+    rgba(35, 172, 226, 1) 100%
+  );
+  border-radius: 13px;
+  min-height: 150px;
+  color: white;
+  /* box-shadow: 5px 5px 4px rgb(104, 104, 104); */
+}

@@ -1,0 +1,22 @@
+.heroText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 45px;
+}
+.gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    142deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(24, 24, 24, 1) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}

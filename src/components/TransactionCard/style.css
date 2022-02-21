@@ -1,0 +1,57 @@
+.trasaction-card {
+  min-width: 220px;
+  max-width: 300px;
+  background-color: #181918;
+  padding: 20px;
+  color: rgb(214, 214, 214);
+  border-radius: 6px;
+  align-items: center;
+}
+.trasaction-card:hover {
+  box-shadow: white;
+  transform: scale(1.05);
+}
+.transaction-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: small;
+}
+.transaction-tag {
+  margin-bottom: 7px;
+  font-size: 18px;
+}
+.date-container {
+  padding: 9px 12px;
+  background-color: #252525b2;
+  color: rgb(0, 247, 255);
+  border-radius: 18px;
+}
+.amount {
+  display: flex;
+}
+.expense-color {
+  color: rgb(228, 60, 60);
+}
+.income-color {
+  color: rgb(0, 224, 0);
+}
+.gif {
+  width: 15rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+  /* background-color: blue; */
+}
+.text .amount .msg {
+  font-size: 55px;
+}
+.cross-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.cross-btn:hover {
+  box-shadow: 1px 1px 3px rgb(124, 124, 124);
+}

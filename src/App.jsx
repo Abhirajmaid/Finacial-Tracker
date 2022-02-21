@@ -1,9 +1,12 @@
-import "./App.css";
+import { Home, About } from "./pages";
+import NormalizeStyle from "./global/NormalizeStyle";
+import { TransactionsProvider } from "./context/Transaction/TransactionState";
 
 export const App = () => {
   return (
-    <>
-      <div>Hello World</div>
-    </>
+    <TransactionsProvider>
+      <NormalizeStyle />
+      <Home />
+    </TransactionsProvider>
   );
 };

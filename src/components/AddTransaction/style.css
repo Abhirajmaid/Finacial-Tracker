@@ -1,0 +1,59 @@
+.form-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.form > input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.form > input::placeholder {
+  color: rgb(155, 155, 155);
+}
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(116, 116, 116, 0.6);
+  /* margin-top: 20px; */
+}
+.submit-btn {
+  width: 100%;
+  border-radius: 18px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  /* margin-top: 20px; */
+  background-color: #0062ff;
+  cursor: pointer;
+}
+.form > input[type="date"] {
+  color: rgb(155, 155, 155);
+}
